@@ -34,3 +34,8 @@ C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.dll
 C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.pdb
 C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.genruntimeconfig.cache
 C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CopyComplete
+C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.cshtml.g.cs
+C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.cshtml.g.cs
+C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
+C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
+C:\ws-vs2019\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
