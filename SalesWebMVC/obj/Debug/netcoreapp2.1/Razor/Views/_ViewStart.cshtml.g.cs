@@ -23,8 +23,13 @@ using SalesWebMVC.Models;
 
 #line default
 #line hidden
+#line 3 "C:\ws-vs2019\SalesWebMVC\SalesWebMVC\Views\_ViewImports.cshtml"
+using SalesWebMVC.Models.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6a6df1509d91b065201157174002cf59bdfba603", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f5f6aa7a4beab1c3279b73547cc6e2e13c0b3c6", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
