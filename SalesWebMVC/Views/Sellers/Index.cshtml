@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<SalesWebMVC.Models.Seller>
 @{
-    ViewData["Title"] = "Sellers";
+    ViewData["Title"] = "Vendedores";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <p>
-    <a asp-action="Create" class="btn btn-default">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Novo Vendedor</a>
 </p>
 
 <table class="table tablestriped table-hover">
@@ -44,9 +44,9 @@
                     @Html.DisplayFor(modelItem => item.BaseSalary)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
                 </td>
             </tr>
         }

@@ -1,14 +1,13 @@
 ﻿@model SalesWebMVC.Models.Seller;
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 
 <div>
-    <h4>Seller</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -43,7 +42,7 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-default">Edit</a>
-    <a asp-action="Index">Back to List</a>
+<div class="container">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+    <a asp-action="Index"><button class="btn btn-primary">Voltar</button></a>
 </div>

@@ -31,7 +31,9 @@ namespace SalesWebMVC.Models
         [DisplayFormat(DataFormatString = "{0:f2}")]
         public double BaseSalary { get; set; }
 
+        [Display(Name = "Departamento")]
         public Department Department { get; set; }
+
         [Display(Name = "Departamento")]
         public int DepartmentId { get; set; }//avisando para o entity framework que esse Id deve existir
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();

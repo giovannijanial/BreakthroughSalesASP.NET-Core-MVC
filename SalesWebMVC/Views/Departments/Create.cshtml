@@ -1,7 +1,7 @@
 ﻿@model SalesWebMVC.Models.Department
 
 @{
-    ViewData["Title"] = "Criar Departamento";
+    ViewData["Title"] = "Novo Departamento";
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -15,8 +15,8 @@
                 <span asp-validation-for="Name" class="text-danger"></span><!--Validação-->
             </div>
             <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-default" />
-                <a asp-action="Index" class="btn btn-default">Voltar</a>
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">Voltar</a>
             </div>
         </form>
     </div>

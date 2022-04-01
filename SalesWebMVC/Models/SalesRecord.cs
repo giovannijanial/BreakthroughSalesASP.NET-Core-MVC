@@ -8,11 +8,15 @@ namespace SalesWebMVC.Models
     {
         public int Id { get; set; }
 
+        [Display(Name = "Data")]
         [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         public DateTime Date { get; set; }
 
+        [Display(Name = "Valor")]
         [DisplayFormat(DataFormatString ="{0:f2}")]
         public double Amount { get; set; }
+
+        [Display(Name = "Status")]
         public SaleStatus Status { get; set; }
         public Seller Seller { get; set; }
 
