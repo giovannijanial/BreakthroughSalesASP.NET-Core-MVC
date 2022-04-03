@@ -27,12 +27,23 @@ namespace SalesWebMVC.Data
             Department d3 = new Department(3, "Fashion");
             Department d4 = new Department(4, "Books");
 
-            Seller s1 = new Seller(1, "Bob Brown", "bob@gmail.com", new DateTime(1998, 4, 21), 1000.0, d1);
-            Seller s2 = new Seller(2, "Giovanni Janial", "giovanni@gmail.com", new DateTime(1996, 2, 11), 1800.0, d1);
-            Seller s3 = new Seller(3, "Maria Vitoria", "maria@gmail.com", new DateTime(1998, 12, 4), 1500.0, d2);
-            Seller s4 = new Seller(4, "Guilherme Manzano", "guilherme@gmail.com", new DateTime(1995, 12, 4), 2000.0, d3);
-            Seller s5 = new Seller(5, "Victor Mello", "victor@gmail.com", new DateTime(1996, 1, 21), 2800.0, d3);
-            Seller s6 = new Seller(6, "Vinicius Santos", "vinicius@gmail.com", new DateTime(1996, 6, 22), 3000.0, d4);
+            string f1 = "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f2 = "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f3 = "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f4 = "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f5 = "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f6 = "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f7 = "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+            string f8 = "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+
+            Seller s1 = new Seller(1, "Marcos Silva", "marcossilva@gmail.com", new DateTime(1998, 4, 21), 1000.0, f1, d1);
+            Seller s2 = new Seller(2, "Maria Souza", "brunosouza@gmail.com", new DateTime(1996, 2, 11), 1800.0,f2, d1);
+            Seller s3 = new Seller(3, "João Pedro ", "joaopedro@gmail.com", new DateTime(1998, 12, 4), 1500.0,f3, d2);
+            Seller s4 = new Seller(4, "Ana Vitória", "anavitoria@gmail.com", new DateTime(1995, 12, 4), 2000.0,f4, d3);
+            Seller s5 = new Seller(5, "Victor Mello", "victor@gmail.com", new DateTime(1996, 1, 21), 2800.0,f5, d3);
+            Seller s6 = new Seller(6, "Vinicius Santos", "vinicius@gmail.com", new DateTime(1996, 6, 22), 3000.0,f6,d4);
+            Seller s7 = new Seller(7, "Amanda Batista", "amandabatista@gmail.com", new DateTime(1996, 6, 22), 3000.0, f7, d4);
+            Seller s8 = new Seller(8, "Isabela Saores", "isabelasoares@gmail.com", new DateTime(1996, 6, 22), 3000.0, f8, d4);
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 25), 11000.0, SaleStatus.Billed, s1);
             SalesRecord r2 = new SalesRecord(2, new DateTime(2018, 09, 4), 7000.0, SaleStatus.Billed, s5);
@@ -66,7 +77,7 @@ namespace SalesWebMVC.Data
             SalesRecord r30 = new SalesRecord(30, new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
 
             _context.Department.AddRange(d1, d2, d3, d4);
-            _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
+            _context.Seller.AddRange(s1, s2, s3, s4, s5, s6, s7, s8);
             _context.SalesRecord.AddRange(r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, 
                 r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30);
 

@@ -22,4 +22,9 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\Department\Index.css" />
+    <None Include="wwwroot\css\Department\Index.min.css" />
+  </ItemGroup>
+
 </Project>

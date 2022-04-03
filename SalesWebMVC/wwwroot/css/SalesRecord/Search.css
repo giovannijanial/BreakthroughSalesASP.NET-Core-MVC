@@ -1,0 +1,17 @@
+﻿.navbar-search {
+    background: var(--bs-gray);
+    border-bottom: 2px solid var(--bs-orange);
+}
+.navbar-search label{
+    color: var(--bs-body-bg);
+    font-size: 12px;
+}
+.panel-primary {
+    border-color: var(--bs-gray-dark);
+}
+.panel-primary .panel-heading {
+    color: var(--bs-body-bg);
+    
+    background-color: var(--bs-orange);
+}
+

@@ -31,6 +31,10 @@ namespace SalesWebMVC.Models
         [DisplayFormat(DataFormatString = "{0:f2}")]
         public double BaseSalary { get; set; }
 
+        [Display(Name = "Foto")]
+        [DataType(DataType.ImageUrl)]
+        public string PhotoUrl { get; set; }
+
         [Display(Name = "Departamento")]
         public Department Department { get; set; }
 
@@ -43,13 +47,14 @@ namespace SalesWebMVC.Models
 
         }
 
-        public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
+        public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, string photoUrl, Department department)
         {
             Id = id;
             Name = name;
             Email = email;
             BirthDate = birthDate;
             BaseSalary = baseSalary;
+            PhotoUrl = photoUrl;
             Department = department;
             //nao gerar o construtor para icollections
         }

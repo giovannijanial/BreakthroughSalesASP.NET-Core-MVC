@@ -1,0 +1,220 @@
+﻿
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #EB5E28;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #403D39;
+    --bs-gray-dark: #252422;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1.4rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #FFFCF2;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: var(--bs-gray);
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    background-color: var(--bs-orange);
+    border-color: var(--bs-orange);
+}
+    .btn-primary:hover {
+        color: var(--bs-body-bg);
+        background-color: var(--bs-gray-dark);
+        border-color: var(--bs-orange);
+    }
+    .btn-primary:active {
+        color: var(--bs-body-bg);
+        background-color: var(--bs-gray-dark);
+        background-image: none;
+        border-color: var(--bs-orange);
+    }
+    .btn-primary:focus {
+        color: var(--bs-body-bg);
+        background-color: var(--bs-gray-dark);
+        border-color: var(--bs-orange);
+    }
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+.navbar-inverse {
+    background: var(--bs-gray-dark);
+    border-bottom: 4px solid var(--bs-orange);
+}
+
+.navbar-brand {
+    font: 12px Lato !important;
+    text-transform: uppercase;
+    color: #FFF !important;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+.nav {
+    margin-bottom: 0px;
+}
+
+    .nav a {
+        font: 500 11px Lato;
+        letter-spacing: 2px;
+        padding: 16px !important;
+        color: #a3bfc6 !important;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1000;
+    }
+
+        .nav a:hover {
+            color: #FFF !important;
+        }
+
+    .nav li {
+        position: relative;
+    }
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-collapse {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active {
+    background: transparent !important;
+}
+
+.icon-bar {
+    background: #a3bfc6
+}
+
+.hover {
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: var(--bs-orange);
+    z-index: 0;
+    opacity: 0;
+}
+
+@media (max-width: 767px) {
+    .nav {
+        padding-bottom: 20px;
+    }
+
+    a {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding-bottom: 20px;
+    }
+}

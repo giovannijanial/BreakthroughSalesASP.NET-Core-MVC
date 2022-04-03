@@ -3,38 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SalesWebMVC</title>
+    <title>@ViewData["Title"] - Breakthrough'Sales</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-cyborg.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment>
+    <link rel="stylesheet" href="~/css/nav.css" />
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SalesWebMVC</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">breakthrough'sales</a>
             </div>
-            <div class="navbar-collapse collapse">
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Departments" asp-action="Index">Departamentos</a></li>
-                    <li><a asp-area="" asp-controller="Sellers" asp-action="Index">Vendedores</a></li>
-                    <li><a asp-area="" asp-controller="SalesRecords" asp-action="Index">Vendas</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a></li>
+                    <li><a asp-area="" asp-controller="Departments" asp-action="Index">Departamentos</a><span class="hover"></span></li>
+                    <li><a asp-area="" asp-controller="Sellers" asp-action="Index">Vendedores</a><span class="hover"></span></li>
+                    <li><a asp-area="" asp-controller="SalesRecords" asp-action="Index">Relatórios</a><span class="hover"></span></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a><span class="hover"></span></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a><span class="hover"></span></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +43,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2022 - SalesWebMVC</p>
+            <p>&copy; 2022 - Breakthrough'Sales</p>
         </footer>
     </div>
 
