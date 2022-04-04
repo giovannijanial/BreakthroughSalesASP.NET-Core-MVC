@@ -1,5 +1,7 @@
 # **Breakthough'Sales - ASP.NET CORE MVC**
 under building...
+### Resources:
+> ASP.NET CORE - MVC, Bootstrap 3.4.1, MySQL. 
 ## Layout's:
 ### Home Page:
 ![Screenshot_5](https://user-images.githubusercontent.com/101146139/161450323-ce5fb49c-9014-4ad6-bf2d-ba14b7124a0c.png)
@@ -24,6 +26,9 @@ under building...
 
 
 
-## Follow me!
-### Instagram: https://www.instagram.com/giovannijanial/
-### Linkedin: https://www.linkedin.com/in/giovanni-pinheiro-janial-328393230/
+## Follow me! 
+> Instagram: https://www.instagram.com/giovannijanial/ 
+> 
+> Twitter: https://twitter.com/giovannijanial
+>
+> Linkedin: https://www.linkedin.com/in/giovanni-pinheiro-janial-328393230/
