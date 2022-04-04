@@ -1,7 +1,7 @@
 # **Breakthough'Sales - ASP.NET CORE MVC**
 under building...
 ### Resources:
-> ASP.NET CORE - MVC, Bootstrap 3.4.1, MySQL. 
+> ASP.NET CORE MVC + Entity Framework, Bootstrap 3.4.1, MySQL. 
 ## Layout's:
 ### Home Page:
 ![Screenshot_5](https://user-images.githubusercontent.com/101146139/161450323-ce5fb49c-9014-4ad6-bf2d-ba14b7124a0c.png)
