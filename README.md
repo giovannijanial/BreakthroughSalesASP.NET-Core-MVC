@@ -1,7 +1,11 @@
 # **Breakthough'Sales - ASP.NET CORE MVC**
 under building...
-### Resources:
-> ASP.NET CORE MVC + Entity Framework, Bootstrap 3.4.1, MySQL. 
+## :hammer_and_wrench: Resources
+- ASP .NET Core MVC
+- Entity Framework
+- MySQL
+- Bootstrap
+
 ## Layout's:
 ### Home Page:
 ![Screenshot_5](https://user-images.githubusercontent.com/101146139/161450323-ce5fb49c-9014-4ad6-bf2d-ba14b7124a0c.png)
@@ -20,15 +24,8 @@ under building...
 > Departamento:
 ![Screenshot_13](https://user-images.githubusercontent.com/101146139/161450664-cc76d8c8-4d0f-41ab-aa61-4a22287bbd3f.png)
 
-### Projeto ainda em construção...
 
-
-
-
-
-## Follow me! 
-> Instagram: https://www.instagram.com/giovannijanial/ 
-> 
-> Twitter: https://twitter.com/giovannijanial
->
-> Linkedin: https://www.linkedin.com/in/giovanni-pinheiro-janial-328393230/
+## :fleur_de_lis: Follow me!
+- Instagram: https://www.instagram.com/giovannijanial/
+- LinkedIn: https://www.linkedin.com/in/gpjanial/
+- Twitter: https://twitter.com/giovannijanial
